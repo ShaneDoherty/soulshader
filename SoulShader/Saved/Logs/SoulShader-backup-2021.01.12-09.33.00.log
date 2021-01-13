@@ -1,0 +1,1462 @@
+﻿Log file open, 01/12/21 09:33:35
+LogInit: Display: Running engine for game: SoulShader
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.203498
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: S:/Programs/Unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.12-08.33.39:642][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.12-08.33.39:642][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.01.12-08.33.39:643][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.01.12-08.33.39:644][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.12-08.33.39:670][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:670][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.12-08.33.39:707][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.12-08.33.39:708][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.12-08.33.39:709][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.12-08.33.39:710][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.12-08.33.39:712][  0]LogHAL: Display: Platform has ~ 8 GB [8529289216 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.12-08.33.39:712][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.12-08.33.39:712][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.01.12-08.33.39:712][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Scalability.ini]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.12-08.33.39:713][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.12-08.33.39:724][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.12-08.33.39:724][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.12-08.33.39:724][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.12-08.33.39:724][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Config/Windows/Engine.ini]
+[2021.01.12-08.33.39:749][  0]LogInit: Computer: DOHERTYS-DESKTO
+[2021.01.12-08.33.39:749][  0]LogInit: User: Doherty
+[2021.01.12-08.33.39:755][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.12-08.33.39:755][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.12-08.33.39:755][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.01.12-08.33.39:755][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.12-08.33.39:755][  0]LogMemory: Process Physical Memory: 123.51 MB used, 123.51 MB peak
+[2021.01.12-08.33.39:755][  0]LogMemory: Process Virtual Memory: 116.52 MB used, 116.52 MB peak
+[2021.01.12-08.33.39:755][  0]LogMemory: Physical Memory: 6197.02 MB used,  1937.14 MB free, 8134.16 MB total
+[2021.01.12-08.33.39:755][  0]LogMemory: Virtual Memory: 5204.27 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2021.01.12-08.33.39:764][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.12-08.33.40:770][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.12-08.33.40:839][  0]LogInit: Using OS detected language (en-US).
+[2021.01.12-08.33.40:839][  0]LogInit: Using OS detected locale (en-GB).
+[2021.01.12-08.33.40:914][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.01.12-08.33.41:571][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.12-08.33.42:127][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.12-08.33.42:127][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.12-08.33.51:745][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.01.12-08.33.51:745][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.12-08.33.51:745][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.12-08.33.51:745][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.12-08.33.51:919][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.01.12-08.33.51:919][  0]LogD3D11RHI:       8079/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.01.12-08.33.51:927][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.12-08.33.51:927][  0]LogD3D11RHI:       0/0/4067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.12-08.33.51:927][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.12-08.33.52:101][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.12-08.33.52:124][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.12-08.33.52:124][  0]LogWindows: EnumDisplayDevices:
+[2021.01.12-08.33.52:124][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.01.12-08.33.52:124][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.01.12-08.33.52:124][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.01.12-08.33.52:125][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.01.12-08.33.52:125][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.12-08.33.52:125][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.01.12-08.33.52:125][  0]LogD3D11RHI:   Driver Version: 456.38 (internal:27.21.14.5638, unified:456.38)
+[2021.01.12-08.33.52:125][  0]LogD3D11RHI:      Driver Date: 9-14-2020
+[2021.01.12-08.33.52:125][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.01.12-08.33.52:221][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.12-08.33.52:244][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.01.12-08.33.52:245][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.12-08.33.52:245][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.12-08.33.52:661][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.12-08.33.53:626][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.12-08.33.53:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.12-08.33.53:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.12-08.33.53:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.12-08.33.53:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.12-08.33.54:016][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.12-08.33.54:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.12-08.33.54:086][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.12-08.33.54:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.12-08.33.54:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.12-08.33.54:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.12-08.33.54:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.12-08.33.54:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.12-08.33.54:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.12-08.33.54:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.12-08.33.54:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.12-08.33.54:407][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.12-08.33.54:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.12-08.33.54:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.12-08.33.54:461][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.12-08.33.54:668][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.12-08.33.55:579][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Intermediate/Shaders/WorkingDirectory/24152/).
+[2021.01.12-08.33.55:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Doherty/AppData/Local/Temp/UnrealShaderWorkingDir/9103EE5643DA5F17F96B31814451A631/'.
+[2021.01.12-08.33.55:617][  0]LogXGEController: Cleaning working directory: C:/Users/Doherty/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.12-08.33.55:617][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.12-08.33.55:617][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.12-08.33.55:617][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.12-08.34.02:853][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.12-08.34.03:285][  0]LogDerivedDataCache: Loaded boot cache 0.43s 98MB C:/Users/Doherty/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.12-08.34.03:285][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Doherty/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.12-08.34.03:285][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.12-08.34.03:285][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.12-08.34.03:285][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.12-08.34.03:285][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.12-08.34.03:356][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.12-08.34.03:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.12-08.34.03:356][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.12-08.34.03:358][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Doherty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.12-08.34.03:358][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.12-08.34.03:358][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.12-08.34.03:594][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.12-08.34.03:744][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.12-08.34.04:386][  0]LogAssetRegistry: FAssetRegistry took 0.0066 seconds to start up
+[2021.01.12-08.34.08:226][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.12-08.34.09:754][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.12-08.34.09:754][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.12-08.34.09:754][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.12-08.34.09:754][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.12-08.34.09:755][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.12-08.34.10:094][  0]LogNetVersion: SoulShader 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 475428666)
+[2021.01.12-08.34.19:099][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EC34BC7FC0), frame # 0
+[2021.01.12-08.34.19:099][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC34BE91C0), frame # 0
+[2021.01.12-08.34.19:106][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC34BFB000), frame # 0
+[2021.01.12-08.34.19:663][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.099207 seconds
+[2021.01.12-08.34.19:697][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.12-08.34.19:707][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.12-08.34.19:707][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.12-08.34.26:770][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.12-08.34.26:801][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.12-08.34.27:551][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.01.12-08.34.27:555][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.01.12-08.34.27:556][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2021.01.12-08.34.28:101][  0]SourceControl: Source control is disabled
+[2021.01.12-08.34.28:103][  0]SourceControl: Source control is disabled
+[2021.01.12-08.34.28:215][  0]SourceControl: Source control is disabled
+[2021.01.12-08.34.28:248][  0]SourceControl: Source control is disabled
+[2021.01.12-08.34.28:312][  0]SourceControl: Source control is disabled
+[2021.01.12-08.34.31:550][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.12-08.34.31:762][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.12-08.34.31:762][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.12-08.34.32:291][  0]LogOcInput: OculusInput pre-init called
+[2021.01.12-08.34.34:801][  0]LogEngine: Initializing Engine...
+[2021.01.12-08.34.34:988][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.01.12-08.34.35:003][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.12-08.34.35:134][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.027 s
+[2021.01.12-08.34.35:940][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.12-08.34.36:400][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.12-08.34.36:400][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC409DFC00), frame # 0
+[2021.01.12-08.34.36:401][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC3FA50F40), frame # 0
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.12-08.34.36:557][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.12-08.34.36:557][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.12-08.34.36:561][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.12-08.34.36:561][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.12-08.34.36:665][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.12-08.34.36:665][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.12-08.34.36:710][  0]LogAudioMixer: Display: Using Audio Device VX238 (NVIDIA High Definition Audio)
+[2021.01.12-08.34.36:729][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.12-08.34.36:766][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.12-08.34.36:766][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.12-08.34.36:777][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.12-08.34.36:778][  0]LogInit: FAudioDevice initialized.
+[2021.01.12-08.34.36:791][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.12-08.34.36:964][  0]LogDerivedDataCache: Saved boot cache 0.17s 80MB C:/Users/Doherty/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.12-08.34.36:971][  0]LogInit: Texture streaming: Enabled
+[2021.01.12-08.34.37:245][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.12-08.34.37:245][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.12-08.34.37:269][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.12-08.34.37:708][  0]LogInit: Transaction tracking system initialized
+[2021.01.12-08.34.38:075][  0]BlueprintLog: New page: Editor Load
+[2021.01.12-08.34.39:370][  0]LocalizationService: Localization service is disabled
+[2021.01.12-08.34.50:189][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/' took 0.03s
+[2021.01.12-08.34.50:190][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.12-08.34.50:211][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.12-08.35.00:126][  0]SourceControl: Source control is disabled
+[2021.01.12-08.35.00:137][  0]LogUnrealEdMisc: Loading editor; pre map load, took 102.059
+[2021.01.12-08.35.00:236][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.12-08.35.00:240][  0]LogEditorServer: Warning: Can't find file '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2021.01.12-08.35.00:261][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.12-08.35.00:281][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 19.832ms to complete.
+[2021.01.12-08.35.00:282][  0]LogFileHelpers: Loading map 'StartupMap' took 0.102
+[2021.01.12-08.35.01:703][  0]LogUnrealEdMisc: Total Editor Startup Time, took 103.625
+[2021.01.12-08.35.02:677][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-08.35.02:686][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-08.35.02:694][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-08.35.02:700][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.12-08.35.02:827][  0]LogCollectionManager: Loaded 0 collections in 0.000660 seconds
+[2021.01.12-08.35.03:025][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Collections/' took 0.00s
+[2021.01.12-08.35.03:025][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/Developers/Doherty/Collections/' took 0.00s
+[2021.01.12-08.35.03:025][  0]LogFileCache: Scanning file cache for directory 'S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/Collections/' took 0.00s
+[2021.01.12-08.35.03:025][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3427 classes and 821 folders.
+[2021.01.12-08.35.03:214][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.12-08.35.04:721][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.12-08.35.04:794][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.01.12-08.35.09:755][  0]LogSlate: Took 0.021600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.12-08.35.09:816][  0]LogSlate: Took 0.006362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.12-08.35.09:947][  0]LogSlate: Took 0.015517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.12-08.35.10:706][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 26 NumSamples 1 (Frame:1).
+[2021.01.12-08.35.11:297][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.12-08.35.11:297][  0]LogLoad: (Engine Initialization) Total time: 113.22 seconds
+[2021.01.12-08.35.11:297][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.12-08.35.11:705][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.12-08.35.12:006][  1]LogAssetRegistry: Asset discovery search completed in 67.6233 seconds
+[2021.01.12-08.35.12:015][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000319 seconds (updated 0 objects)
+[2021.01.12-08.35.12:327][  1]LogSlate: Took 0.029140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.12-08.35.12:721][  3]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.12-09.13.09:159][390]AssetReimport: New page: Outstanding source content changes 11:13:09
+[2021.01.12-09.13.09:195][390]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape.fbx)
+[2021.01.12-09.13.09:404][390]LogFbx: Loading FBX Scene from S:/Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape.fbx
+[2021.01.12-09.13.09:475][390]LogFbx: FBX Scene Loaded Succesfully
+[2021.01.12-09.13.16:398][390]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.01.12-09.13.17:398][390]LogStaticMesh: Building static mesh Landscape_Ground...
+[2021.01.12-09.13.18:944][390]LogStaticMesh: Built static mesh [1.55s] /Game/SoulShader/Landscape_Ground.Landscape_Ground
+[2021.01.12-09.13.19:429][390]LogStaticMesh: Building static mesh Landscape_Mountain01...
+[2021.01.12-09.13.19:568][390]LogStaticMesh: Built static mesh [0.14s] /Game/SoulShader/Landscape_Mountain01.Landscape_Mountain01
+[2021.01.12-09.13.19:725][390]LogStaticMesh: Building static mesh Landscape_Mountain02...
+[2021.01.12-09.13.19:807][390]LogStaticMesh: Built static mesh [0.08s] /Game/SoulShader/Landscape_Mountain02.Landscape_Mountain02
+[2021.01.12-09.13.19:974][390]LogStaticMesh: Building static mesh Landscape_Mountain03...
+[2021.01.12-09.13.20:080][390]LogStaticMesh: Built static mesh [0.11s] /Game/SoulShader/Landscape_Mountain03.Landscape_Mountain03
+[2021.01.12-09.13.20:240][390]LogStaticMesh: Building static mesh Landscape_Mountain04...
+[2021.01.12-09.13.20:332][390]LogStaticMesh: Built static mesh [0.09s] /Game/SoulShader/Landscape_Mountain04.Landscape_Mountain04
+[2021.01.12-09.13.20:492][390]LogStaticMesh: Building static mesh Landscape_Mountain05...
+[2021.01.12-09.13.20:586][390]LogStaticMesh: Built static mesh [0.09s] /Game/SoulShader/Landscape_Mountain05.Landscape_Mountain05
+[2021.01.12-09.13.20:632][390]LogStaticMesh: Building static mesh Landscape_Mountain06...
+[2021.01.12-09.13.20:638][390]LogStaticMesh: Built static mesh [0.01s] /Game/SoulShader/Landscape_Mountain06.Landscape_Mountain06
+[2021.01.12-09.13.20:678][390]LogStaticMesh: Building static mesh Landscape_Mountain07...
+[2021.01.12-09.13.20:689][390]LogStaticMesh: Built static mesh [0.01s] /Game/SoulShader/Landscape_Mountain07.Landscape_Mountain07
+[2021.01.12-09.13.20:845][390]LogStaticMesh: Building static mesh Landscape_Mountain08...
+[2021.01.12-09.13.20:952][390]LogStaticMesh: Built static mesh [0.11s] /Game/SoulShader/Landscape_Mountain08.Landscape_Mountain08
+[2021.01.12-09.13.21:099][390]LogStaticMesh: Building static mesh Landscape_Mountain09...
+[2021.01.12-09.13.21:184][390]LogStaticMesh: Built static mesh [0.08s] /Game/SoulShader/Landscape_Mountain09.Landscape_Mountain09
+[2021.01.12-09.13.21:242][390]LogStaticMesh: Building static mesh Landscape_Mountain10...
+[2021.01.12-09.13.21:253][390]LogStaticMesh: Built static mesh [0.01s] /Game/SoulShader/Landscape_Mountain10.Landscape_Mountain10
+[2021.01.12-09.13.21:383][390]LogStaticMesh: Building static mesh Landscape_Mountain15...
+[2021.01.12-09.13.21:466][390]LogStaticMesh: Built static mesh [0.08s] /Game/SoulShader/Landscape_Mountain15.Landscape_Mountain15
+[2021.01.12-09.13.21:809][390]LogStaticMesh: Building static mesh Landscape_Mountain11...
+[2021.01.12-09.13.22:206][390]LogStaticMesh: Built static mesh [0.40s] /Game/SoulShader/Landscape_Mountain11.Landscape_Mountain11
+[2021.01.12-09.13.22:597][390]LogStaticMesh: Building static mesh Landscape_Mountain12...
+[2021.01.12-09.13.23:002][390]LogStaticMesh: Built static mesh [0.40s] /Game/SoulShader/Landscape_Mountain12.Landscape_Mountain12
+[2021.01.12-09.13.23:377][390]LogStaticMesh: Building static mesh Landscape_Mountain13...
+[2021.01.12-09.13.23:770][390]LogStaticMesh: Built static mesh [0.39s] /Game/SoulShader/Landscape_Mountain13.Landscape_Mountain13
+[2021.01.12-09.13.24:157][390]LogStaticMesh: Building static mesh Landscape_Mountain14...
+[2021.01.12-09.13.24:547][390]LogStaticMesh: Built static mesh [0.39s] /Game/SoulShader/Landscape_Mountain14.Landscape_Mountain14
+[2021.01.12-09.13.24:636][390]LogStaticMesh: Building static mesh Landscape_Tree01...
+[2021.01.12-09.13.24:646][390]LogStaticMesh: Built static mesh [0.01s] /Game/SoulShader/Landscape_Tree01.Landscape_Tree01
+[2021.01.12-09.13.25:265][390]LogSlate: Took 0.024612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.12-09.13.25:349][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape.uasset" SILENT=true
+[2021.01.12-09.13.25:489][391]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape375C84D54DF3E89696C4CD8636612796.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape.uasset'
+[2021.01.12-09.13.25:585][392]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.12-09.13.28:509][742]AssetReimport: Importing new asset /Game/SoulShader/Landscape.
+[2021.01.12-09.13.41:349][184]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2021.01.12-09.13.41:387][184]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_0' took 0.401
+[2021.01.12-09.13.41:400][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Tree01] ([1] browsable assets)...
+[2021.01.12-09.13.41:444][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Tree01.Landscape_Tree01]
+[2021.01.12-09.13.41:444][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Tree01]
+[2021.01.12-09.13.41:487][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Tree01_Auto10E92AC5941918DC9860562B805B766DC.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Tree01_Auto1.uasset'
+[2021.01.12-09.13.41:488][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Ground] ([1] browsable assets)...
+[2021.01.12-09.13.41:497][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Ground.Landscape_Ground]
+[2021.01.12-09.13.41:497][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Ground]
+[2021.01.12-09.13.41:575][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Ground_Auto1723A58004F8F5E93DF755EAE7549476E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Ground_Auto1.uasset'
+[2021.01.12-09.13.41:576][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain01] ([1] browsable assets)...
+[2021.01.12-09.13.41:585][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain01.Landscape_Mountain01]
+[2021.01.12-09.13.41:585][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain01]
+[2021.01.12-09.13.41:623][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain01_Auto1B3358101499B7620E202FA92BA13F035.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain01_Auto1.uasset'
+[2021.01.12-09.13.41:623][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain02] ([1] browsable assets)...
+[2021.01.12-09.13.41:633][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain02.Landscape_Mountain02]
+[2021.01.12-09.13.41:633][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain02]
+[2021.01.12-09.13.41:662][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain02_Auto13653BA774EBF949B7BE2138033280465.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain02_Auto1.uasset'
+[2021.01.12-09.13.41:662][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain03] ([1] browsable assets)...
+[2021.01.12-09.13.41:679][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain03.Landscape_Mountain03]
+[2021.01.12-09.13.41:679][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain03]
+[2021.01.12-09.13.41:710][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain03_Auto1BF2F7BB14798D53A6FF35C934ACF04EF.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain03_Auto1.uasset'
+[2021.01.12-09.13.41:711][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain04] ([1] browsable assets)...
+[2021.01.12-09.13.41:719][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain04.Landscape_Mountain04]
+[2021.01.12-09.13.41:719][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain04]
+[2021.01.12-09.13.41:748][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain04_Auto1EDD5BE01416C1DB1AA76C996FAD3AE02.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain04_Auto1.uasset'
+[2021.01.12-09.13.41:749][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain05] ([1] browsable assets)...
+[2021.01.12-09.13.41:758][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain05.Landscape_Mountain05]
+[2021.01.12-09.13.41:758][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain05]
+[2021.01.12-09.13.41:789][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain05_Auto102E21C0A44C4779657D091ABC1C1F54E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain05_Auto1.uasset'
+[2021.01.12-09.13.41:790][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain06] ([1] browsable assets)...
+[2021.01.12-09.13.41:800][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain06.Landscape_Mountain06]
+[2021.01.12-09.13.41:800][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain06]
+[2021.01.12-09.13.41:846][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain06_Auto12B52A7814609604BE2D7D9853DD2D259.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain06_Auto1.uasset'
+[2021.01.12-09.13.41:846][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain07] ([1] browsable assets)...
+[2021.01.12-09.13.41:854][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain07.Landscape_Mountain07]
+[2021.01.12-09.13.41:854][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain07]
+[2021.01.12-09.13.41:881][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain07_Auto19B05DB694438488CE41368BEFEA69588.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain07_Auto1.uasset'
+[2021.01.12-09.13.41:881][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain08] ([1] browsable assets)...
+[2021.01.12-09.13.41:889][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain08.Landscape_Mountain08]
+[2021.01.12-09.13.41:889][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain08]
+[2021.01.12-09.13.41:918][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain08_Auto1799A966E4D6D658C515A43B38D7E2B34.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain08_Auto1.uasset'
+[2021.01.12-09.13.41:919][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain09] ([1] browsable assets)...
+[2021.01.12-09.13.41:926][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain09.Landscape_Mountain09]
+[2021.01.12-09.13.41:926][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain09]
+[2021.01.12-09.13.41:956][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain09_Auto18C2A498444289F4FD00B0EB7DEA8C26D.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain09_Auto1.uasset'
+[2021.01.12-09.13.41:956][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain10] ([1] browsable assets)...
+[2021.01.12-09.13.41:965][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain10.Landscape_Mountain10]
+[2021.01.12-09.13.41:965][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain10]
+[2021.01.12-09.13.41:982][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain10_Auto1A7876DB042078E994FC06BACF8F6A943.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain10_Auto1.uasset'
+[2021.01.12-09.13.41:982][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain15] ([1] browsable assets)...
+[2021.01.12-09.13.41:990][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain15.Landscape_Mountain15]
+[2021.01.12-09.13.41:990][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain15]
+[2021.01.12-09.13.42:023][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain15_Auto1477EF32C414EE8CFD05DA1A440507830.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain15_Auto1.uasset'
+[2021.01.12-09.13.42:023][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain11] ([1] browsable assets)...
+[2021.01.12-09.13.42:031][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain11.Landscape_Mountain11]
+[2021.01.12-09.13.42:031][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain11]
+[2021.01.12-09.13.42:077][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain11_Auto1BE89A20A4BAAC50D5B411FAF83684282.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain11_Auto1.uasset'
+[2021.01.12-09.13.42:078][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain12] ([1] browsable assets)...
+[2021.01.12-09.13.42:085][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain12.Landscape_Mountain12]
+[2021.01.12-09.13.42:085][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain12]
+[2021.01.12-09.13.42:132][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain12_Auto1ACB9D2044A29FF280E4F9B9845B17809.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain12_Auto1.uasset'
+[2021.01.12-09.13.42:132][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain13] ([1] browsable assets)...
+[2021.01.12-09.13.42:141][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain13.Landscape_Mountain13]
+[2021.01.12-09.13.42:141][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain13]
+[2021.01.12-09.13.42:186][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain13_Auto1B767A1404E00642E2CD0B8880034BB53.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain13_Auto1.uasset'
+[2021.01.12-09.13.42:187][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SoulShader/Landscape_Mountain14] ([1] browsable assets)...
+[2021.01.12-09.13.42:194][184]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SoulShader/Landscape_Mountain14.Landscape_Mountain14]
+[2021.01.12-09.13.42:194][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/SoulShader/Landscape_Mountain14]
+[2021.01.12-09.13.42:250][184]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain14_Auto1E78D8EA6447F2890D157C78F0A3A884E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Autosaves/Game/SoulShader/Landscape_Mountain14_Auto1.uasset'
+[2021.01.12-09.13.42:250][184]LogFileHelpers: Auto-saving content packages took 0.862
+[2021.01.12-09.14.39:601][ 43]LogSlate: Window 'Message Log' being destroyed
+[2021.01.12-09.14.39:607][ 43]LogSlate: Window 'Message Log' being destroyed
+[2021.01.12-09.14.44:870][200]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VirtualRealityBP/Maps/SoulShader_v2_map.SoulShader_v2_map
+[2021.01.12-09.14.44:923][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.01.12-09.15.21:801][200]LogSlate: Window 'Save Content' being destroyed
+[2021.01.12-09.15.21:816][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Ground" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Ground.uasset" SILENT=true
+[2021.01.12-09.15.21:898][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_GroundDBB3C91D47B50DD4645AAB9D8A22D422.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Ground.uasset'
+[2021.01.12-09.15.21:907][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain01" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain01.uasset" SILENT=true
+[2021.01.12-09.15.21:936][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain01FC51812241C8FB3CF2F439ABCB35891A.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain01.uasset'
+[2021.01.12-09.15.21:943][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain02" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain02.uasset" SILENT=true
+[2021.01.12-09.15.21:980][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain02CA79BC9748395412FECA1796EA88D7AE.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain02.uasset'
+[2021.01.12-09.15.21:996][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain03" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain03.uasset" SILENT=true
+[2021.01.12-09.15.22:041][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain03001DE2C1488FE71AE03BEDA9D6987970.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain03.uasset'
+[2021.01.12-09.15.22:047][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain04" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain04.uasset" SILENT=true
+[2021.01.12-09.15.22:076][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain04E7A04AD24720E638CE4C999410ACB86D.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain04.uasset'
+[2021.01.12-09.15.22:083][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain05" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain05.uasset" SILENT=true
+[2021.01.12-09.15.22:111][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain05C1D9E65F46271210F0A915AE0AFC6F3E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain05.uasset'
+[2021.01.12-09.15.22:117][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain06" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain06.uasset" SILENT=true
+[2021.01.12-09.15.22:129][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain06C76CF02B48AC9F43C634D4AE5B5C0AF6.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain06.uasset'
+[2021.01.12-09.15.22:154][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain07" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain07.uasset" SILENT=true
+[2021.01.12-09.15.22:167][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain07E1BACC0D4E4594DE38A29B8DF5ADC8AD.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain07.uasset'
+[2021.01.12-09.15.22:173][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain08" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain08.uasset" SILENT=true
+[2021.01.12-09.15.22:202][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain08478940E54FFC9E59F8A30CBE44EAC981.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain08.uasset'
+[2021.01.12-09.15.22:208][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain09" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain09.uasset" SILENT=true
+[2021.01.12-09.15.22:236][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain09A22B22124B1A6785BAD013999DF0D187.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain09.uasset'
+[2021.01.12-09.15.22:246][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain10" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain10.uasset" SILENT=true
+[2021.01.12-09.15.22:258][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain1093A817A149E6E071631C9ABA0FDBDE04.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain10.uasset'
+[2021.01.12-09.15.22:265][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain11" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain11.uasset" SILENT=true
+[2021.01.12-09.15.22:305][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain119199A4014EA84DAA5C7AAC8AFF902AA2.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain11.uasset'
+[2021.01.12-09.15.22:311][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain12" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain12.uasset" SILENT=true
+[2021.01.12-09.15.22:352][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain123B50F8954913F2E4E802859C9B078EF4.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain12.uasset'
+[2021.01.12-09.15.22:358][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain13" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain13.uasset" SILENT=true
+[2021.01.12-09.15.22:517][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain134D8356104F1126D0610CD9A7AA6FE34C.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain13.uasset'
+[2021.01.12-09.15.22:524][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain14" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain14.uasset" SILENT=true
+[2021.01.12-09.15.22:574][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain14DD5F621E4CB144610C2E6F9E2E99E7E3.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain14.uasset'
+[2021.01.12-09.15.22:579][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Mountain15" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain15.uasset" SILENT=true
+[2021.01.12-09.15.22:606][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain15F0E707CF4F0216BEB4CED1920DC045F8.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Mountain15.uasset'
+[2021.01.12-09.15.22:612][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Landscape_Tree01" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Tree01.uasset" SILENT=true
+[2021.01.12-09.15.22:625][200]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Tree010C6C6F8B43975ABCC12F11AE6B0D97FC.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Landscape_Tree01.uasset'
+[2021.01.12-09.15.22:630][200]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v2_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.12-09.15.22:630][200]LightingResults: New page: Lighting Build
+[2021.01.12-09.15.22:806][200]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0009 seconds. Added 6 classes and 0 folders.
+[2021.01.12-09.15.22:807][200]LoadErrors: New page: Loading map: SoulShader_v2_map.umap
+[2021.01.12-09.15.22:830][200]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.15.22:881][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.15.22:921][200]MapCheck: New page: Map Check
+[2021.01.12-09.15.22:921][200]LightingResults: New page: Lighting Build
+[2021.01.12-09.15.23:149][200]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC409DFC00), frame # 16200
+[2021.01.12-09.15.23:150][200]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC3FA50F40), frame # 16200
+[2021.01.12-09.15.23:152][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.12-09.15.23:508][200]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.12-09.15.23:509][200]LogAIModule: Creating AISystem for world SoulShader_v2_map
+[2021.01.12-09.15.23:509][200]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC8E8FF000), frame # 16200
+[2021.01.12-09.15.23:509][200]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC8429B380), frame # 16200
+[2021.01.12-09.15.23:565][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.01.12-09.15.23:591][200]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.12-09.15.23:591][200]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2021.01.12-09.15.23:591][200]LogFileHelpers: Loading map 'SoulShader_v2_map' took 0.962
+[2021.01.12-09.15.23:698][200]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Ground.Landscape_Ground
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain01.Landscape_Mountain01
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain02.Landscape_Mountain02
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain03.Landscape_Mountain03
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain04.Landscape_Mountain04
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain05.Landscape_Mountain05
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain06.Landscape_Mountain06
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain07.Landscape_Mountain07
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain08.Landscape_Mountain08
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain09.Landscape_Mountain09
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain10.Landscape_Mountain10
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain11.Landscape_Mountain11
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain12.Landscape_Mountain12
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain13.Landscape_Mountain13
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain14.Landscape_Mountain14
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Mountain15.Landscape_Mountain15
+[2021.01.12-09.15.23:698][200]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Landscape_Tree01.Landscape_Tree01
+[2021.01.12-09.15.46:659][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.01.12-09.15.55:454][749]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.15.55:466][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.01.12-09.15.57:186][749]LogSlate: Window 'Save Content' being destroyed
+[2021.01.12-09.15.57:240][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.12-09.15.57:343][749]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/SoulShader_v3_map2B2E430645D7CC259FF0268BFE7C5083.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap'
+[2021.01.12-09.15.57:360][749]LogFileHelpers: Saving map 'SoulShader_v3_map' took 0.159
+[2021.01.12-09.15.57:360][749]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.12-09.15.57:360][749]LightingResults: New page: Lighting Build
+[2021.01.12-09.15.57:360][749]LoadErrors: New page: Loading map: SoulShader_v3_map.umap
+[2021.01.12-09.15.57:371][749]LogWorld: UWorld::CleanupWorld for SoulShader_v2_map, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.15.57:371][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.15.57:371][749]MapCheck: New page: Map Check
+[2021.01.12-09.15.57:371][749]LightingResults: New page: Lighting Build
+[2021.01.12-09.15.57:420][749]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EC8429B380), frame # 19749
+[2021.01.12-09.15.57:420][749]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EC8E8FF000), frame # 19749
+[2021.01.12-09.15.57:433][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.01.12-09.15.57:531][749]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.12-09.15.57:531][749]LogAIModule: Creating AISystem for world SoulShader_v3_map
+[2021.01.12-09.15.57:531][749]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC5CE85E00), frame # 19749
+[2021.01.12-09.15.57:531][749]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EC88A4DD00), frame # 19749
+[2021.01.12-09.15.57:543][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.12-09.15.57:571][749]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.12-09.15.57:571][749]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2021.01.12-09.15.57:571][749]LogFileHelpers: Loading map 'SoulShader_v3_map' took 0.212
+[2021.01.12-09.15.57:606][749]AssetCheck: New page: Asset Save: SoulShader_v3_map
+[2021.01.12-09.15.57:606][749]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.16.00:309][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_02_Brush_02)
+[2021.01.12-09.16.02:571][267]LogSlate: Took 0.020502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.12-09.17.10:485][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_02_Brush_82)
+[2021.01.12-09.17.11:923][521]Cmd: DELETE
+[2021.01.12-09.17.11:923][521]Cmd: ACTOR DELETE
+[2021.01.12-09.17.12:159][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.12-09.17.12:167][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.12-09.17.12:169][521]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2021.01.12-09.17.16:083][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_02_Brush_104)
+[2021.01.12-09.17.23:460][731]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/PN_LowpolyGras/Meshes/Grass_02/grass_02_Brush_06.grass_02_Brush_06
+[2021.01.12-09.17.24:725][731]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.17.24:725][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.17.25:018][732]LogRenderer: Reallocating scene render targets to support 1208x780 Format 26 NumSamples 1 (Frame:1).
+[2021.01.12-09.17.26:820][884]LogRenderer: Reallocating scene render targets to support 1208x788 Format 26 NumSamples 1 (Frame:146).
+[2021.01.12-09.17.26:914][889]LogRenderer: Reallocating scene render targets to support 1432x920 Format 26 NumSamples 1 (Frame:152).
+[2021.01.12-09.17.27:508][960]LogSlate: Window 'grass_02_Brush_06' being destroyed
+[2021.01.12-09.17.39:894][420]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.17.39:894][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.18.07:240][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_GroundB987EBEE403564740D933781615DA17D.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Ground.uasset'
+[2021.01.12-09.18.07:283][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain01FCA0A52045466AAB0DC02598E6702A8E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain01.uasset'
+[2021.01.12-09.18.07:321][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain0247286B1442E75AC31C89CA8020DF1251.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain02.uasset'
+[2021.01.12-09.18.07:363][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain03E17637A04C57F2880CEC2EB76EE1B542.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain03.uasset'
+[2021.01.12-09.18.07:401][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain04C30761734F802808E0DAF8860BF092BE.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain04.uasset'
+[2021.01.12-09.18.07:443][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain0581F78CC745E301EF3B816491E5A765AA.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain05.uasset'
+[2021.01.12-09.18.07:469][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain06C7BE0D3C421D6914576E58BF50558683.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain06.uasset'
+[2021.01.12-09.18.07:495][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain077E1085BE4CB3A88FAD82038B993BA0F2.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain07.uasset'
+[2021.01.12-09.18.07:550][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain086E1F2A174D1332D21B4B3BA43BF82729.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain08.uasset'
+[2021.01.12-09.18.07:592][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain091B78205F49688A987E20FF9AAB34DE6A.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain09.uasset'
+[2021.01.12-09.18.07:617][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain102714733041B8DF518DD4B18774B33908.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain10.uasset'
+[2021.01.12-09.18.07:670][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain1186B051824BA39DE261E13EBF708DEBFD.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain11.uasset'
+[2021.01.12-09.18.07:741][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain12DA2AFDB940E1021B073167BE3BF7222B.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain12.uasset'
+[2021.01.12-09.18.07:797][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain131E41785C4D98BF27A5B6818BA887C86E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain13.uasset'
+[2021.01.12-09.18.07:851][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain147A1980614CA0807C2DE1528455C59874.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain14.uasset'
+[2021.01.12-09.18.07:890][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Mountain1553271453423A83ED7BDA80BFDEB4239D.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Mountain15.uasset'
+[2021.01.12-09.18.07:915][106]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Landscape_Tree01CBFE292B432528EFAFE319A0BF964B6A.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Meshes/Landscape_Tree01.uasset'
+[2021.01.12-09.18.08:649][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.12-09.18.08:661][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.01.12-09.18.08:669][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.01.12-09.18.08:678][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.01.12-09.18.08:686][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.01.12-09.18.08:694][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.01.12-09.18.08:703][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.01.12-09.18.08:711][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.01.12-09.18.08:720][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.01.12-09.18.08:728][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.01.12-09.18.08:737][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.01.12-09.18.08:745][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.01.12-09.18.08:753][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.01.12-09.18.08:761][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.01.12-09.18.08:769][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.01.12-09.18.08:776][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.01.12-09.18.08:784][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.01.12-09.18.08:798][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.01.12-09.18.08:806][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.01.12-09.18.08:851][106]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Ground.Landscape_Ground
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain01.Landscape_Mountain01
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain02.Landscape_Mountain02
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain03.Landscape_Mountain03
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain04.Landscape_Mountain04
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain05.Landscape_Mountain05
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain06.Landscape_Mountain06
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain07.Landscape_Mountain07
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain08.Landscape_Mountain08
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain09.Landscape_Mountain09
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain10.Landscape_Mountain10
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain11.Landscape_Mountain11
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain12.Landscape_Mountain12
+[2021.01.12-09.18.08:851][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain13.Landscape_Mountain13
+[2021.01.12-09.18.08:852][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain14.Landscape_Mountain14
+[2021.01.12-09.18.08:852][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Mountain15.Landscape_Mountain15
+[2021.01.12-09.18.08:852][106]LogContentValidation: Display: Validating StaticMesh /Game/SoulShader/Meshes/Landscape_Tree01.Landscape_Tree01
+[2021.01.12-09.18.14:040][597]LogActorFactory: Actor Factory created Landscape_Ground
+[2021.01.12-09.18.14:052][597]LogActorFactory: Actor Factory created Landscape_Mountain01
+[2021.01.12-09.18.14:053][597]LogActorFactory: Actor Factory created Landscape_Mountain02
+[2021.01.12-09.18.14:053][597]LogActorFactory: Actor Factory created Landscape_Mountain03
+[2021.01.12-09.18.14:054][597]LogActorFactory: Actor Factory created Landscape_Mountain04
+[2021.01.12-09.18.14:054][597]LogActorFactory: Actor Factory created Landscape_Mountain05
+[2021.01.12-09.18.14:054][597]LogActorFactory: Actor Factory created Landscape_Mountain06
+[2021.01.12-09.18.14:055][597]LogActorFactory: Actor Factory created Landscape_Mountain07
+[2021.01.12-09.18.14:055][597]LogActorFactory: Actor Factory created Landscape_Mountain08
+[2021.01.12-09.18.14:055][597]LogActorFactory: Actor Factory created Landscape_Mountain09
+[2021.01.12-09.18.14:056][597]LogActorFactory: Actor Factory created Landscape_Mountain10
+[2021.01.12-09.18.14:056][597]LogActorFactory: Actor Factory created Landscape_Mountain11
+[2021.01.12-09.18.14:057][597]LogActorFactory: Actor Factory created Landscape_Mountain12
+[2021.01.12-09.18.14:057][597]LogActorFactory: Actor Factory created Landscape_Mountain13
+[2021.01.12-09.18.14:057][597]LogActorFactory: Actor Factory created Landscape_Mountain14
+[2021.01.12-09.18.14:058][597]LogActorFactory: Actor Factory created Landscape_Mountain15
+[2021.01.12-09.18.14:058][597]LogActorFactory: Actor Factory created Landscape_Tree01
+[2021.01.12-09.18.17:926][ 10]LogActorFactory: Actor Factory created Landscape_Ground
+[2021.01.12-09.18.17:938][ 10]LogActorFactory: Actor Factory created Landscape_Mountain01
+[2021.01.12-09.18.17:950][ 10]LogActorFactory: Actor Factory created Landscape_Mountain02
+[2021.01.12-09.18.17:963][ 10]LogActorFactory: Actor Factory created Landscape_Mountain03
+[2021.01.12-09.18.17:975][ 10]LogActorFactory: Actor Factory created Landscape_Mountain04
+[2021.01.12-09.18.17:988][ 10]LogActorFactory: Actor Factory created Landscape_Mountain05
+[2021.01.12-09.18.17:998][ 10]LogActorFactory: Actor Factory created Landscape_Mountain06
+[2021.01.12-09.18.18:008][ 10]LogActorFactory: Actor Factory created Landscape_Mountain07
+[2021.01.12-09.18.18:020][ 10]LogActorFactory: Actor Factory created Landscape_Mountain08
+[2021.01.12-09.18.18:030][ 10]LogActorFactory: Actor Factory created Landscape_Mountain09
+[2021.01.12-09.18.18:041][ 10]LogActorFactory: Actor Factory created Landscape_Mountain10
+[2021.01.12-09.18.18:053][ 10]LogActorFactory: Actor Factory created Landscape_Mountain11
+[2021.01.12-09.18.18:065][ 10]LogActorFactory: Actor Factory created Landscape_Mountain12
+[2021.01.12-09.18.18:078][ 10]LogActorFactory: Actor Factory created Landscape_Mountain13
+[2021.01.12-09.18.18:090][ 10]LogActorFactory: Actor Factory created Landscape_Mountain14
+[2021.01.12-09.18.18:104][ 10]LogActorFactory: Actor Factory created Landscape_Mountain15
+[2021.01.12-09.18.18:119][ 10]LogActorFactory: Actor Factory created Landscape_Tree01
+[2021.01.12-09.19.13:914][164]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.19.18:756][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Landscape_Ground)
+[2021.01.12-09.19.34:889][487]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.19.36:456][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.01.12-09.19.36:563][667]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/SoulShader_v3_mapC29F97F2448455C83A430C8C3B7350FA.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap'
+[2021.01.12-09.19.36:605][667]AssetCheck: New page: Asset Save: SoulShader_v3_map
+[2021.01.12-09.19.36:605][667]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.21.06:980][584]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.21.08:942][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Landscape_Ground)
+[2021.01.12-09.21.21:233][921]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.21.26:322][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grass_02_Brush_58)
+[2021.01.12-09.21.38:818][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.01.12-09.21.38:869][896]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/SoulShader_v3_mapB3D9B7254AA654FEF71BD88CEE55F1B4.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap'
+[2021.01.12-09.21.38:907][896]AssetCheck: New page: Asset Save: SoulShader_v3_map
+[2021.01.12-09.21.38:907][896]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.21.44:349][531]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.21.45:053][610]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.22.03:359][117]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/SoulShader/Material/Gound.Gound
+[2021.01.12-09.22.03:421][117]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.03:843][117]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.03:855][117]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.12-09.22.03:855][117]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.22.03:855][117]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.22.03:855][117]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.01.12-09.22.03:930][117]LogSlate: Took 0.020699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.12-09.22.06:232][202]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.01.12-09.22.06:478][226]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.01.12-09.22.06:635][245]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.12-09.22.06:652][247]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.12-09.22.06:832][268]LogSlate: Window 'Gound' being destroyed
+[2021.01.12-09.22.07:231][306]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.12-09.22.07:895][380]MaterialEditorStats: Base pass shader: 172 instructions
+[2021.01.12-09.22.07:895][380]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 246 instructions
+[2021.01.12-09.22.07:895][380]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2021.01.12-09.22.07:895][380]MaterialEditorStats: Texture samplers: 2/16
+[2021.01.12-09.22.09:411][557]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.09:416][557]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.22.09:443][558]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.12-09.22.09:443][558]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.22.09:443][558]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.22.09:443][558]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.01.12-09.22.10:199][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.01.12-09.22.10:511][670]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.22.10:720][689]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.22.10:771][695]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.12-09.22.11:192][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.22.11:351][761]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.01.12-09.22.11:615][792]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.11:630][792]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.22.11:734][801]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.01.12-09.22.11:818][810]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.22.11:917][821]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.22.12:025][833]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.12-09.22.12:650][901]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.12-09.22.12:821][909]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.01.12-09.22.12:920][915]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.01.12-09.22.13:147][941]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.01.12-09.22.13:700][996]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.01.12-09.22.13:893][ 19]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.01.12-09.22.14:101][ 44]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.01.12-09.22.14:176][ 53]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.01.12-09.22.14:317][ 69]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.12-09.22.14:548][ 96]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.14:564][ 96]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.12-09.22.14:567][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.22.15:029][137]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.01.12-09.22.15:130][148]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.01.12-09.22.15:145][150]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.01.12-09.22.15:763][217]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.12-09.22.15:855][228]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.01.12-09.22.15:989][244]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.01.12-09.22.16:130][260]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.16:146][260]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.22.16:180][262]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.01.12-09.22.16:630][304]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.01.12-09.22.16:966][343]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.22.17:180][367]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.01.12-09.22.17:397][392]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.01.12-09.22.17:540][409]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.01.12-09.22.17:611][417]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.17:626][417]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.12-09.22.17:629][417]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.22.18:248][469]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.01.12-09.22.18:330][479]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.01.12-09.22.18:386][485]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.18:398][485]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.22.18:405][485]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.12-09.22.18:406][485]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.12-09.22.18:620][506]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.22.19:431][588]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.01.12-09.22.19:686][611]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.01.12-09.22.19:829][627]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.01.12-09.22.19:855][630]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.22.19:883][633]LogMaterialEditor: Saving and Compiling material Gound
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.12-09.22.21:409][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.12-09.22.21:418][633]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.21:438][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.01.12-09.22.21:438][633]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.01.12-09.22.21:777][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.01.12-09.22.21:778][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.01.12-09.22.21:797][633]LogMaterial: Display: Missing cached shader map for material Gound, compiling. 
+[2021.01.12-09.22.21:858][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.01.12-09.22.21:900][633]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.12-09.22.22:466][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.01.12-09.22.22:466][633]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.01.12-09.22.22:466][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2021.01.12-09.22.22:466][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.01.12-09.22.23:024][633]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2021.01.12-09.22.23:024][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.01.12-09.22.23:024][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.01.12-09.22.23:024][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2021.01.12-09.22.23:024][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.01.12-09.22.24:025][633]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.01.12-09.22.24:025][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.22.24:045][633]TextureStreamingBuild: Display: Compiling optional shaders took 2.169 seconds.
+[2021.01.12-09.22.24:069][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.01.12-09.22.24:704][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.01.12-09.22.24:704][633]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.01.12-09.22.24:704][633]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.01.12-09.22.25:082][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Material/Gound" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Gound.uasset" SILENT=true
+[2021.01.12-09.22.25:094][633]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/GoundBE02F28448222A20EFD8FAA44B9E8AC8.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Gound.uasset'
+[2021.01.12-09.22.25:127][633]AssetCheck: New page: Asset Save: Gound
+[2021.01.12-09.22.25:127][633]LogContentValidation: Display: Validating Material /Game/SoulShader/Material/Gound.Gound
+[2021.01.12-09.22.25:132][633]MaterialEditorStats: Base pass shader: 173 instructions
+[2021.01.12-09.22.25:132][633]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 247 instructions
+[2021.01.12-09.22.25:132][633]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2021.01.12-09.22.25:132][633]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.12-09.22.32:899][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SoulShader/Material/Gound_mat" FILE="../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Gound_mat.uasset" SILENT=true
+[2021.01.12-09.22.32:912][530]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Gound_mat3A2602304C06052F65B60CA9CD6CA72D.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Gound_mat.uasset'
+[2021.01.12-09.22.33:016][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.01.12-09.22.33:034][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.12-09.22.33:042][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.01.12-09.22.33:069][530]AssetCheck: New page: Asset Save: Gound_mat
+[2021.01.12-09.22.33:069][530]LogContentValidation: Display: Validating Material /Game/SoulShader/Material/Gound_mat.Gound_mat
+[2021.01.12-09.22.38:668][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Landscape_Ground)
+[2021.01.12-09.22.45:551][944]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.12-09.22.59:461][563]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.22.59:481][564]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.01.12-09.22.59:482][564]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.22.59:482][564]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.22.59:482][564]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.12-09.23.01:350][657]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/SoulShader/Material/Mountain_light_mat.Mountain_light_mat
+[2021.01.12-09.23.01:352][657]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.01:362][657]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.01.12-09.23.01:483][657]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.01:500][657]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.02:690][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.01.12-09.23.03:364][832]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.01.12-09.23.04:167][913]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.01.12-09.23.04:191][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.12-09.23.04:312][929]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.12-09.23.04:445][944]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.01.12-09.23.04:840][989]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.23.05:101][ 20]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.12-09.23.05:345][ 48]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.01.12-09.23.05:367][ 50]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.05:385][ 50]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.05:415][ 52]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.12-09.23.05:993][106]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.23.06:122][121]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.01.12-09.23.06:190][129]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.01.12-09.23.06:234][134]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.06:246][134]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.06:572][165]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.12-09.23.06:950][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.01.12-09.23.07:003][213]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.01.12-09.23.07:203][236]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.07:218][236]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.07:396][253]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.01.12-09.23.07:778][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.23.07:940][314]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.23.08:081][330]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.12-09.23.08:747][403]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.01.12-09.23.08:762][405]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.01.12-09.23.08:852][416]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.23.09:295][456]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.01.12-09.23.09:587][485]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.01.12-09.23.10:095][538]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.01.12-09.23.10:140][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.12-09.23.10:272][559]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.12-09.23.10:315][564]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.01.12-09.23.12:064][771]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.12:075][771]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.12:079][771]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.12-09.23.12:079][771]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.23.12:079][771]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.23.12:079][771]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.01.12-09.23.12:871][855]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.01.12-09.23.13:197][893]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.23.13:427][920]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.23.13:435][921]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.12-09.23.13:837][968]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.23.13:945][981]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.01.12-09.23.14:259][ 18]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.14:279][ 18]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.14:325][ 22]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.01.12-09.23.14:476][ 35]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.23.14:554][ 44]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.23.14:682][ 56]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.12-09.23.15:046][ 96]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.15:059][ 96]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.23.15:069][ 96]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.12-09.23.15:390][130]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.12-09.23.15:628][157]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.23.15:720][168]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.01.12-09.23.15:930][190]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.01.12-09.23.16:460][234]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.12-09.23.16:649][255]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.23.16:668][257]LogMaterialEditor: Saving and Compiling material Mountain_light_mat
+[2021.01.12-09.23.17:403][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.23.17:403][257]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.01.12-09.23.17:403][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.23.17:403][257]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.01.12-09.23.17:417][257]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.17:492][257]LogMaterial: Display: Missing cached shader map for material Mountain_light_mat, compiling. 
+[2021.01.12-09.23.17:512][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.01.12-09.23.17:526][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.01.12-09.23.17:535][257]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.12-09.23.18:100][257]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2021.01.12-09.23.18:100][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2021.01.12-09.23.18:100][257]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2021.01.12-09.23.18:100][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2021.01.12-09.23.18:659][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2021.01.12-09.23.18:659][257]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2021.01.12-09.23.18:659][257]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.01.12-09.23.18:659][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.01.12-09.23.18:659][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2021.01.12-09.23.19:217][257]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.01.12-09.23.19:217][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2021.01.12-09.23.19:744][257]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.01.12-09.23.19:744][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.01.12-09.23.19:744][257]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.01.12-09.23.19:744][257]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.01.12-09.23.19:744][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.23.19:744][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.23.19:748][257]TextureStreamingBuild: Display: Compiling optional shaders took 2.217 seconds.
+[2021.01.12-09.23.19:757][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.01.12-09.23.20:930][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.01.12-09.23.21:490][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.01.12-09.23.21:490][257]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.01.12-09.23.21:719][257]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Mountain_light_mat6FA0682E4161F867A4C6859DBF5B2FE5.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Mountain_light_mat.uasset'
+[2021.01.12-09.23.21:761][257]AssetCheck: New page: Asset Save: Mountain_light_mat
+[2021.01.12-09.23.21:761][257]LogContentValidation: Display: Validating Material /Game/SoulShader/Material/Mountain_light_mat.Mountain_light_mat
+[2021.01.12-09.23.21:765][257]MaterialEditorStats: Base pass shader: 173 instructions
+[2021.01.12-09.23.21:765][257]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 247 instructions
+[2021.01.12-09.23.21:765][257]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2021.01.12-09.23.21:765][257]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.12-09.23.53:940][759]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.23.53:963][760]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.01.12-09.23.53:963][760]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.23.53:963][760]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.23.53:963][760]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.01.12-09.24.01:196][243]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Mountain_front_mat6D3E86BD444FCDEDF80BDD8D64A08CB0.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Mountain_front_mat.uasset'
+[2021.01.12-09.24.01:283][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.12-09.24.01:301][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.01.12-09.24.01:310][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2021.01.12-09.24.01:341][243]AssetCheck: New page: Asset Save: Mountain_front_mat
+[2021.01.12-09.24.01:341][243]LogContentValidation: Display: Validating Material /Game/SoulShader/Material/Mountain_front_mat.Mountain_front_mat
+[2021.01.12-09.24.02:499][339]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/SoulShader/Material/Mountain_back_mat.Mountain_back_mat
+[2021.01.12-09.24.02:500][339]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.02:560][339]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.02:569][339]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.12-09.24.02:570][339]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.24.02:570][339]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.24.02:570][339]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.01.12-09.24.02:572][339]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.24.03:330][408]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.01.12-09.24.03:730][448]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.24.03:903][468]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.24.03:973][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.12-09.24.04:508][520]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.24.04:696][540]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.01.12-09.24.05:156][589]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.01.12-09.24.05:224][597]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.01.12-09.24.05:290][605]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.12-09.24.05:304][606]MaterialEditorStats: Base pass shader: 173 instructions
+[2021.01.12-09.24.05:304][606]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 247 instructions
+[2021.01.12-09.24.05:304][606]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2021.01.12-09.24.05:304][606]MaterialEditorStats: Texture samplers: 2/16
+[2021.01.12-09.24.07:050][814]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.07:058][814]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.24.07:066][815]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.01.12-09.24.07:066][815]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2021.01.12-09.24.07:066][815]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.01.12-09.24.07:066][815]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.01.12-09.24.07:835][889]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.01.12-09.24.08:226][929]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.24.08:486][953]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.01.12-09.24.08:514][956]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.01.12-09.24.09:007][  3]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.01.12-09.24.09:195][ 22]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.01.12-09.24.09:708][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.01.12-09.24.09:775][ 82]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.01.12-09.24.09:793][ 84]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.01.12-09.24.10:112][121]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.10:118][121]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.01.12-09.24.10:128][121]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.24.10:484][151]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.01.12-09.24.10:512][154]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.01.12-09.24.10:680][173]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.01.12-09.24.10:814][188]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.10:830][188]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.01.12-09.24.10:841][188]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.12-09.24.11:306][234]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.01.12-09.24.11:464][252]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.01.12-09.24.11:590][267]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.01.12-09.24.11:863][295]LogMaterialEditor: Applying material Mountain_back_mat
+[2021.01.12-09.24.12:569][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.01.12-09.24.12:569][295]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.01.12-09.24.12:569][295]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.01.12-09.24.12:569][295]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.01.12-09.24.12:569][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.01.12-09.24.12:580][295]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.12:656][295]LogMaterial: Display: Missing cached shader map for material Mountain_back_mat, compiling. 
+[2021.01.12-09.24.12:693][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2021.01.12-09.24.12:700][295]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.01.12-09.24.13:263][295]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2021.01.12-09.24.13:263][295]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.01.12-09.24.13:263][295]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2021.01.12-09.24.13:263][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2021.01.12-09.24.13:263][295]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.01.12-09.24.13:821][295]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 25
+[2021.01.12-09.24.13:821][295]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2021.01.12-09.24.13:821][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2021.01.12-09.24.14:381][295]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2021.01.12-09.24.14:381][295]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.01.12-09.24.14:381][295]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2021.01.12-09.24.14:381][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.01.12-09.24.14:939][295]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2021.01.12-09.24.14:939][295]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.01.12-09.24.14:939][295]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2021.01.12-09.24.14:939][295]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.01.12-09.24.14:939][295]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.01.12-09.24.15:115][295]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.01.12-09.24.15:115][295]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.01.12-09.24.15:121][295]TextureStreamingBuild: Display: Compiling optional shaders took 2.426 seconds.
+[2021.01.12-09.24.15:130][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.01.12-09.24.17:041][434]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.01.12-09.24.17:303][445]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.01.12-09.24.18:129][478]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.01.12-09.24.18:454][509]MaterialEditorStats: Base pass shader: 173 instructions
+[2021.01.12-09.24.18:454][509]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 247 instructions
+[2021.01.12-09.24.18:454][509]MaterialEditorStats: Base pass vertex shader: 97 instructions
+[2021.01.12-09.24.18:454][509]MaterialEditorStats: Texture samplers: 3/16
+[2021.01.12-09.24.41:440][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Landscape_Tree01)
+[2021.01.12-09.24.43:312][199]Cmd: DELETE
+[2021.01.12-09.24.43:312][199]Cmd: ACTOR DELETE
+[2021.01.12-09.24.43:316][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.01.12-09.24.43:325][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.01.12-09.24.43:328][199]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2021.01.12-09.24.52:003][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2021.01.12-09.24.52:056][230]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/SoulShader_v3_map53F92FA74881928E13DE7E9560FDC25A.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap'
+[2021.01.12-09.24.52:093][230]AssetCheck: New page: Asset Save: SoulShader_v3_map
+[2021.01.12-09.24.52:093][230]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.32.05:961][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.01.12-09.32.06:149][180]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/SoulShader_v3_map849F856D4A227A4F4C1BCE8451C732EB.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap'
+[2021.01.12-09.32.06:200][180]AssetCheck: New page: Asset Save: SoulShader_v3_map
+[2021.01.12-09.32.06:200][180]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.32.26:493][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Landscape_Ground)
+[2021.01.12-09.32.30:395][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Landscape_Ground)
+[2021.01.12-09.32.36:708][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.01.12-09.32.36:755][767]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/SoulShader_v3_map03C0909744AECAB81A4E628B88E37351.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/VirtualRealityBP/Maps/SoulShader_v3_map.umap'
+[2021.01.12-09.32.36:793][767]AssetCheck: New page: Asset Save: SoulShader_v3_map
+[2021.01.12-09.32.36:793][767]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/SoulShader_v3_map.SoulShader_v3_map
+[2021.01.12-09.32.41:506][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.01.12-09.32.41:549][267]LogSavePackage: Moving '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Saved/Mountain_back_matE00F09C24A848BA800C010ACBA3F6F1E.tmp' to '../../../../../../Documents/Unreal/Soul Shader/soulshader/SoulShader/Content/SoulShader/Material/Mountain_back_mat.uasset'
+[2021.01.12-09.32.41:559][267]AssetCheck: New page: Asset Save: Mountain_back_mat
+[2021.01.12-09.32.41:559][267]LogContentValidation: Display: Validating Material /Game/SoulShader/Material/Mountain_back_mat.Mountain_back_mat
+[2021.01.12-09.32.44:182][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.01.12-09.32.44:302][573]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.32.44:302][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.32.44:341][573]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.32.44:341][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.32.44:372][573]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.32.44:372][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.12-09.32.44:538][573]LogSlate: Window 'SoulShader - Unreal Editor' being destroyed
+[2021.01.12-09.32.44:553][573]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.12-09.32.46:417][574]Cmd: QUIT_EDITOR
+[2021.01.12-09.32.46:427][574]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.01.12-09.32.46:543][574]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.01.12-09.32.48:010][574]LogExit: Preparing to exit.
+[2021.01.12-09.32.52:913][574]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.32.52:913][574]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.32.59:237][574]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.01.12-09.32.59:939][574]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.01.12-09.33.00:002][574]LogExit: Editor shut down
+[2021.01.12-09.33.00:103][574]LogExit: Transaction tracking system shut down
